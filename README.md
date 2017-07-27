@@ -17,4 +17,10 @@ Something needs to be done for this game.
 - your head is at 0,0. the next frame, the head moves to 1,0 and you draw a tail segment at [0,0]. The next frame the head moves to 2,1 and you draw the tail segment at [1,0] (solution) need to maintain list of coordinates.
 - he list length grows every time the head touches an apple. and when the list has more members, you draw more segments 
 - Draw background.
+![alt text](https://i.itsosticky.com/1g4ffxz.png)
+![alt text](https://itsosticky.com/1ye9wj3)
+
+problem is playground becomes invisible in times.
+
+
 
