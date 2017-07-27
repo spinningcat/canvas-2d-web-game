@@ -1,11 +1,26 @@
-console.clear();
+var gc = document.createElement("canvas");
+gc.width = gc.height = 35;
+var gx = gc.getContext("2d");
 
-var canvas = document.createElement("canvas");
-document.body.appendChild(canvas);
+gx.beginPath();
+gx.moveTo(35, 2);
+gx.lineTo(35, 35);
+gx.lineTo(2, 35);
+gx.stroke();
+gx.fillRect(17,17,1,1);
 
-canvas.width = window.innerWidth;
-canvas.height = window.innerHeight;
-var ctx = canvas.getContext("2d");
+var pc = document.createElement("canvas");
+pc.width = pc.height = 1000;
+var px = pc.getContext("2d");
+document.body.appendChild(pc);
+for(var y = 0; y < pc.height; y += gc.height) {
+  for(var x = 0; x < pc.width; x += gc.width) {
+    px.drawImage(gc, x, y);
+  }
+}
+
+//pc.width = window.innerWidth;
+//pc.height = window.innerHeight;
 
 var mx = my = lx = ly = 0;
 
@@ -14,13 +29,13 @@ function handleMouseMove(event) {
   my = event.clientY;
 }
 function fadeClear() {
-  ctx.fillStyle = 'rgba(255,255,255,0.03)';
-  ctx.fillRect(0, 0, canvas.width, canvas.height);
+  px.fillStyle = 'rgba(255,255,255,0.03)';
+  px.fillRect(0, 0, pc.width, pc.height);
 }
 function drawDot(x, y) {
   var size = 10;
-  ctx.fillStyle = "#F00";
-  ctx.fillRect(x-size*0.5, y-size*0.5, size, size);
+  px.fillStyle = "#F00";
+  px.fillRect(x-size*0.5, y-size*0.5, size, size);
   lx = x;
   ly = y;
 }
