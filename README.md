@@ -13,3 +13,8 @@ Something needs to be done for this game.
 - Generate some other worms thats moves randomly. 
   * If a worm hit the other worm. He will be dead.
 - Detect a worm hit the wall -> It is the another reason of worm's death.
+- the worm curves because the tail segments follow the head. (issue)
+- your head is at 0,0. the next frame, the head moves to 1,0 and you draw a tail segment at [0,0]. The next frame the head moves to 2,1 and you draw the tail segment at [1,0] (solution) need to maintain list of coordinates.
+- he list length grows every time the head touches an apple. and when the list has more members, you draw more segments 
+- 
+
