@@ -18,7 +18,7 @@ Something needs to be done for this game.
 - he list length grows every time the head touches an apple. and when the list has more members, you draw more segments 
 - Draw background.
 ![alt text](https://i.itsosticky.com/1g4ffxz.png)
-![alt text](https://itsosticky.com/1ye9wj3)
+![alt text](https://i.itsosticky.com/b7ykv0.png)
 
 problem is playground becomes invisible in times.
 
