@@ -21,6 +21,9 @@ Something needs to be done for this game.
 ![alt text](https://i.itsosticky.com/b7ykv0.png)
 
 problem is playground becomes invisible in times.
+- Random Generated Items screenshot
+![alt text](https://i.itsosticky.com/ulytc0.png)
+
 
 
 
