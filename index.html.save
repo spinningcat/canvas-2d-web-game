@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Worms</title>
+  <link rel="stylesheet" type="text/css" href="theme.css">
+Try it Yourself »
+Definition and Usage
+The href attribute specifies the location (URL) of the external resource (most often a style sheet file).
+
+Browser Support
+Attribute					
+href	Yes	Yes	Yes	Yes	Yes
+Differences Between HTML 4.01 and HTML5
+NONE.
+
+Syntax
+<link href="URL">
+Attribute Values
+Value	Description
+URL	The URL of the linked resource/document.
+Possible values:
+
+An absolute URL - points to another web site (like href="http://www.example.com/theme.css")
+A relative URL - points to a file within a web site (like href="/themes/theme.css")
+❮ HTML <link> tag
+	
+</head>
+<body>
+<script src="myscripts.js"></script>
+</body>
+</html>
